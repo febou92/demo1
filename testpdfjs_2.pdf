@@ -1,0 +1,30 @@
+%PDF-1.3
+ %âãÏÓ
+ 1 0 obj
+ <</AcroForm R/Names 3 0 R/Pages 2 0 R/Type/Catalog>> 
+ endobj
+ 2 0 obj
+ <</Count 1 /Kids [3 0 R] /Type /Pages>>
+ endobj
+ 3 0 obj
+<</JavaScript 4 0 R>>
+endobj
+ 4 0 obj
+<</Names[(ACRO_Breakpoints)5 0 R]>>
+ endobj
+ 5 0 obj
+<</JS(
+try{
+namefull = ""
+t = this
+for (var i in t) {
+  try{namefull += i+" : "+JSON.stringify(t[i])+`\r\n\r\n`}catch(e){namefull += i+" : "+t[i]+`\r\n\r\n`}
+}
+app.alert(namefull)
+}catch(e){app.alert(e)}
+
+)/S/JavaScript>>
+ endobj
+ trailer
+ <</Root 1 0 R>>
+ %%EOF
